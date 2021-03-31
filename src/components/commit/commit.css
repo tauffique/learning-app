@@ -1,0 +1,81 @@
+
+#why-us {
+  padding: 60px 0;
+  background:white;
+  text-align: center;
+}
+
+#why-us .section-header h3,
+#why-us .section-header p {
+  color: #000;
+  font-weight: bolder;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#why-us .card {
+  border-color: #00458f;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: #000;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+
+
+#why-us .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us .card h5 {
+  font-size: 22px;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+#why-us .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#why-us .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us .counters {
+  padding-top: 40px;
+}
+
+#why-us .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+.comit-img{
+    height: 8rem;
+    width: 16rem;
+  }
