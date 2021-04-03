@@ -4,7 +4,7 @@ import Card from '../card/card';
 function Enrollment(){
     return(
       <>
-       <div className='my-5 '>
+       <div className='my '>
          <h1 className= ' class text-left ' >Class Enrollment</h1>
          </div>
          <div className='container-fluid '>

@@ -1,87 +1,48 @@
+.img1{
+   width: 90%;
+   margin-top: 12%;
+   height: 100%;
+ } 
+ 
+ .email{
+   padding: 0.5rem;
+   margin-top: 25%;
+   width: 70%;
+   margin-left: 15%;
 
-#contact-us {
-  padding: 40px 0;
-}  
-#email,#password{
-  width: 70%;
-  margin-bottom: 30px;
-  height: 3rem;
-  padding: 20px;
-  border-radius: 7px;
+   border-radius: 5px;
+   outline: none;
+   border-color: rgb(168, 168, 223);
+ }
+
+ .password{
+
+    padding: 0.5rem;
+    margin-top: 6%;
+    width: 70%;
+    border-radius: 5px;
+    margin-left: 15%;
+    outline: none;
+    border-color: rgb(168, 168, 223);
+  }
+  .btn1{
+    margin-top: 6.5%;
+    width: 15%;
+padding: .8rem; 
+margin-left: 15%;
+
+border-radius: 15px;
+margin-bottom: 5%;
+ }
+
+.btn1:hover{
+  border-color:black;
+}
+.sign{
+  font-size: 20px;
   margin-left: 15%;
-  outline: none;
-  
-  border-color: cadetblue;
-}
+  color: black;
+  margin-top: 10%;
 
-#btn9{
-  font-size: larger;
-  background-color: white;
-  color: green;
-  outline: none;
-  border: none;
-  margin-left: 15%;
-}
-#signup{
-  margin-left: 15%;
-  font-size: 21px;
 
 }
-#sign{
-  font-size: 21px;
-  background-color: white;
-  color: rgb(90, 115, 230);
-  border-radius: 0 0 0 0;
-}
-#sign::hover{
-  border: none;
-  outline: none;
-}
-.overlay {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }}
-

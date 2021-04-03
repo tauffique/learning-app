@@ -1,6 +1,7 @@
 
 #why-us {
   padding: 60px 0;
+
   background:white;
   text-align: center;
 }
@@ -14,6 +15,7 @@
 }
 
 #why-us .card {
+  margin-top: 7%;
   border-color: #00458f;
   border-radius: 10px;
   border: none;

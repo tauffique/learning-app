@@ -1,7 +1,8 @@
 .card1{
   border-radius:1rem  1rem 1rem  1rem ;
   width: 80%;
-  height: 75%;
+  height: 65%;
+  margin-top: 17%;
   border:none;
   box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.1);
   opacity: 1;
@@ -19,7 +20,8 @@
   background-color: rgb(230, 213, 67);
   border-radius: 0 0 1rem 1rem;
   border: none;
-  height: 20%;
+  padding: 1.3rem;
+  height: 17%;
 }
 .row1{
   margin-left: 10px;
@@ -29,7 +31,11 @@
   margin-left: 12%;
   font-size: 25px;
   font-weight:600;
+  margin-top: 5%;
 font-family: Georgia, 'Times New Roman', Times, serif;}
 .card-text{
   padding-bottom: 3rem;
+}
+.my{
+  margin-top: 6%;
 }
