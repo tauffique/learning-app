@@ -18,7 +18,7 @@ const Login=()=>{
   async function Login(){
     let item ={email,password}
     console.warn(item)
-    let result= await fetch("",{
+    let result= await fetch("http://443170d89235.ngrok.io/student/signup",{
       method:"POST",
       body:JSON.stringify(item),
       header:{
@@ -28,7 +28,7 @@ const Login=()=>{
     });
     result=await result.json();
     localStorage.setItem("user-info",JSON.stringify(result))
-    history.push("s")
+    history.push("file:///C:/Users/tauffiq/Desktop/NewEducation/examples/dashboard.html")
   }
   
 
@@ -52,9 +52,9 @@ const Login=()=>{
                value={password}
                onChange={(password)=>setPassword(password.target.value)}/>
             </div>
-            <button onChange={Login}className="btn1 btn-outline-success">Login</button>
+            <button onClick={Login}className="btn1 btn-outline-success">Login</button>
           </form>
-          <a className="sign">Don't have account?</a>
+          <p1 className="sign">Don't have account?</p1>
         </div>
     </div>
     </div>
