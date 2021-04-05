@@ -12,6 +12,7 @@
     "react": "^17.0.1",
     "react-modal": "3.12.1",
     "react-bootstrap": "^1.5.2",
+    "react-font-awesome": "1.7.1",
     "react-button": "^1.2.1",
     "prop-types": "15.7.2",
     "overlay": "1.2.5",

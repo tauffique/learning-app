@@ -28,8 +28,7 @@ import Test from './components/Test/Test'
 const  Landing_page=()=> {
   return (
 <>    
-
-    <Navbar></Navbar>
+     <Navbar></Navbar>
     <Enroll></Enroll>
     <Commit></Commit>
     <Para></Para>
@@ -37,7 +36,7 @@ const  Landing_page=()=> {
     <Service></Service>
     <Login></Login>
     <Test></Test>
-    <Footer></Footer>
+    <Footer></Footer> 
     </>
   );
 }

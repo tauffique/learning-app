@@ -16,7 +16,6 @@ const  Student=()=> {
 <Sidebar></Sidebar>
 <Card2></Card2>
 <Footer></Footer>
- {/* <Landing_page></Landing_page> */}
     </>
   );
 }

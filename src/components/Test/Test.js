@@ -20,13 +20,13 @@ function SignUp(props) {
  async function SignUp(){
   let item ={name,parentname,email,value,phoneno,password,classno}
   console.warn(item)
-  let result= await fetch("http://443170d89235.ngrok.io/student/signup",{
+  let result= await fetch("",{
     action:'POST',
    
   });
   result=await result.json();
   localStorage.setItem("user-info",JSON.stringify(result))
-  history.push("http://443170d89235.ngrok.io/student/signup")
+  history.push("")
 }
 
 

@@ -23,10 +23,10 @@ function Footer(){
               </div>
               <div className="col-lg-3 col-md-6 foot">
                 <h4>Classes</h4>
-                <p>
-                  Basic</p>
-                  <p>Intermediate</p>
-                  <p>Advanced</p>
+                <p style={{color:'black'}}>
+                  Basic</p><br></br>
+                  <p style={{color:'black'}}>Intermediate</p><br></br>
+                  <p style={{color:'black'}}>Advanced</p>
                
               </div>
               <div className="col-lg-3 col-md-6 footer-newsletter">
